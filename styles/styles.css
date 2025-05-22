@@ -30,7 +30,7 @@ nav {
 }
 nav a {
     color: white;
-    text-decoration: block;
+    text-decoration: underline;
     margin: 20px;
 }
 h1 {
