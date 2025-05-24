@@ -17,6 +17,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -73,7 +74,7 @@ nav a:hover {
 
 .hero h1 {
     position: absolute;
-    top: 30px;
+    top: 91px;
     left: 40px;
     color: #fff;
     font-family: var(--heading-font);
