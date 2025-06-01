@@ -206,6 +206,13 @@ p {
     justify-content: center;
 }
 
+.adventure-gallery figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 180px;
+}
+
 .adventure-gallery img {
     width: 180px;
     height: 120px;
@@ -220,6 +227,12 @@ p {
 .adventure-gallery img:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 15px rgba(106, 141, 146, 0.3);
+}
+
+.adventure-gallery figcaption {
+    font-size: 0.95em;
+    color: var(--secondary-color);
+    margin-top: 0.3em;
 }
 
 footer {
