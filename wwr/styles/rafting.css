@@ -17,7 +17,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -74,7 +73,7 @@ nav a:hover {
 
 .hero h1 {
     position: absolute;
-    top: 91px;
+    top: 30px;
     left: 40px;
     color: #fff;
     font-family: var(--heading-font);
@@ -95,7 +94,7 @@ nav a:hover {
     /* accent1 color with opacity */
     color: #fff;
     padding: 1.2rem 1.5rem;
-    border-radius: 20px;
+    border-radius: 10px;
     max-width: 480px;
     z-index: 2;
 }
@@ -133,6 +132,71 @@ h2 {
 p {
     margin-bottom: 1rem;
     font-size: 1.1rem;
+}
+
+.history-section {
+    border: 1px solid #aaa;
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 900px;
+    background: #fff;
+}
+
+.history-section h2 {
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.history-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.history-text {
+    flex: 1 1 0;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    text-align: left;
+}
+
+.history-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 180px;
+    max-width: 220px;
+}
+
+.history-logo img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    background: #4B4E6D;
+    /* Example background color */
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+@media (max-width: 700px) {
+    .history-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .history-text {
+        text-align: center;
+    }
+
+    .history-logo {
+        margin: 1rem 0;
+    }
 }
 
 .adventure-gallery {
@@ -194,16 +258,4 @@ footer p {
 .socialmedia img:hover {
     filter: none;
     transform: scale(1.1);
-}
-
-.random-random {
-    /* This class is used to hide elements visually but keep them accessible to screen readers */
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    padding: 0 !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    clip: rect(0, 0, 0, 0) !important;
-    border: 0 !important;
 }
