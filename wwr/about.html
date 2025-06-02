@@ -2,6 +2,7 @@
 <html lang="en-US">
 
 <head>
+    <!-- Meta tags for SEO and responsiveness -->
     <meta charset="UTF-8">
     <meta name="description"
         content="About White Water Rafting Adventures - Learn about our mission, history, and team.">
@@ -12,11 +13,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech&display=swap" rel="stylesheet">
-    <!-- CSS -->
+    <!-- External CSS -->
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
+    <!-- Header with logo and navigation -->
     <header>
         <img src="images/wwr-logo.png" alt="Rafting Site Logo" width="120">
         <nav>
@@ -27,49 +29,43 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/hero.jpg" alt="Rafting Adventure" class="hero-img">
-            <h1>White Water Rafting Adventures</h1>
-            <article>
-                <img src="images/our-mission.jpg" alt="Our Mission" class="article-img">
-                <p>
-                    Our mission is to provide unforgettable rafting experiences that connect people with nature,
-                    adventure, and each other. Whether you’re a first-timer or a seasoned rafter, our team is dedicated
-                    to safety, fun, and lifelong memories!
-                </p>
-            </article>
-        </div>
-        <section>
-            <h2>Our Mission</h2>
-            <p>
-                Our mission is to provide unforgettable rafting experiences that connect people with nature,
-                adventure, and each other. Whether you’re a first-timer or a seasoned rafter, our team is dedicated
-                to safety, fun, and lifelong memories!
-            </p>
+        <!-- Hero section with centered mission box and soft background title -->
+        <section class="hero-section">
+            <div class="hero-bg">
+                <div class="hero-overlay">
+                    <h1><span class="soft-bg">White Water Rafting</span></h1>
+                    <div class="hero-box">
+                        <div class="hero-text">
+                            <p>Our mission is to provide unforgettable rafting experiences that connect people with
+                                nature, adventure, and each other. Whether you’re a first-timer or a seasoned rafter,
+                                our team is dedicated to safety, fun, and lifelong memories!</p>
+                        </div>
+                        <div class="hero-image">
+                            <img src="images/our-mission.jpg" alt="Our Mission">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- History section -->
         <section class="history-section">
             <h2>History</h2>
             <div class="history-content">
                 <div class="history-text">
-                    <p>
-                        White Water Rafting Adventures was founded in 2005 by a group of passionate explorers who wanted
-                        to share the thrill of the river with everyone. Our early days were filled with adventure,
-                        learning, and a commitment to safety that remains at our core.
-                    </p>
+                    <p>Founded in 2005 by passionate explorers, we started with a simple goal: share the river's thrill.
+                        Early adventures taught us the importance of safety and teamwork.</p>
                 </div>
-                <div class="history-logo">
+                <div class="history-logo-bg">
                     <img src="images/wwr-logo.png" alt="Company Logo">
                 </div>
                 <div class="history-text">
-                    <p>
-                        Over the years, we have guided thousands of thrill-seekers down some of the most beautiful and
-                        challenging rivers in the region. Our dedication to creating unforgettable memories and
-                        fostering a love for the outdoors has made us a leader in outdoor recreation.
-                    </p>
+                    <p>Today, we’ve guided thousands through breathtaking rivers, becoming leaders in outdoor adventures
+                        and creating lifelong memories.</p>
                 </div>
             </div>
         </section>
-        <section>
+        <!-- Adventure gallery section -->
+        <section class="adventure-section">
             <h2>Adventure Awaits You!</h2>
             <div class="adventure-gallery">
                 <figure>
@@ -95,26 +91,18 @@
             </div>
         </section>
     </main>
+    <!-- Footer with social media icons -->
     <footer>
-        <p>&copy; 2025 White Water Rafting Adventures | André Duarte Santos de Pina | W03 Project: Rafting Site - About
-            Us Page</p>
-        <nav class="socialmedia">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="Facebook" width="32">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="Twitter" width="32">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="Instagram" width="32">
-            </a>
-            <a href="https://youtube.com" target="_blank">
-                <img src="images/youtube.png" alt="YouTube" width="32">
-            </a>
-            <a href="https://snapchat.com/" target="_blank">
-                <img src="images/snapchat.png" alt="Snapchat" width="32">
-            </a>
-        </nav>
+        <div class="footer-content">
+            <p>&copy; 2025 White Water Rafting Adventures </p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+                <a href="https://snapchat.com" target="_blank"><img src="images/snapchat.png" alt="Snapchat"></a>
+            </nav>
+        </div>
     </footer>
 </body>
 
