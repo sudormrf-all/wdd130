@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- Meta tags for SEO and responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Contact White Water Rafting Adventures - Reach out for reservations, questions, or feedback. Find our address, phone, email, map, and a contact form.">
+    <meta name="author" content="André Duarte Santos de Pina">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting Adventures</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <!-- Header with logo and navigation -->
+    <header>
+        <img src="images/wwr-logo.png" alt="Rafting Site Logo" width="120">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero section with centered contact box and soft background title -->
+        <section class="hero-section">
+            <div class="hero-bg">
+                <div class="hero-overlay">
+                    <h1><span class="soft-bg">Contact Us</span></h1>
+                    <div class="hero-box contact-hero-box">
+                        <div class="hero-text">
+                            <p>We'd love to hear from you! Whether you have a question about trips, reservations, feedback, or anything else, our team is ready to answer all your questions.</p>
+                        </div>
+                        <div class="hero-image">
+                            <img src="images/contact-hero.jpg" alt="Contact Us">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Company Information and Map -->
+        <section class="contact-info-section">
+            <h2>Our Contact Information</h2>
+            <div class="contact-info-content">
+                <div class="contact-details">
+                    <address>
+                        <strong>White Water Rafting Adventures</strong><br>
+                        123 River Rapids Rd.<br>
+                        Adventure City, CA 90001<br>
+                        Phone: <a href="tel:+15551234567">(555) 123-4567</a><br>
+                        Email: <a href="mailto:info@wwr.com">info@wwr.com</a>
+                    </address>
+                </div>
+                <div class="contact-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019684314046!2d-122.41941518468137!3d37.77492977975971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c7e8a5a7b%3A0x8e9e6b0b8e9e6b0b!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1620000000000"
+                        width="400" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- Employee Profiles -->
+        <section class="employees-section">
+            <h2>Meet Our Team</h2>
+            <div class="adventure-gallery employees-gallery">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Smiling guide Sarah" width="150">
+                    <figcaption>Sarah Lee<br><span class="employee-title">Lead Guide</span></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Happy booking manager Mike" width="150">
+                    <figcaption>Mike Brown<br><span class="employee-title">Booking Manager</span></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Friendly instructor Anna" width="150">
+                    <figcaption>Anna Smith<br><span class="employee-title">Safety Instructor</span></figcaption>
+                </figure>
+            </div>
+        </section>
+        <!-- Contact Form -->
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Your Message:</legend>
+                    <label>
+                        <input type="radio" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label class="newsletter-label">
+                    <input type="checkbox" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer with social media icons and wireframe link -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 White Water Rafting Adventures</p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+                <a href="https://snapchat.com" target="_blank"><img src="images/snapchat.png" alt="Snapchat"></a>
+            </nav>
+            <p>
+                <a href="contact-wireframe.png" target="_blank">View Contact Us Wireframe</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
