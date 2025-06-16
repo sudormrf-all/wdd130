@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- Meta tags for SEO and responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Explore our thrilling white water rafting trips. Find the perfect adventure for you and your group!">
+    <meta name="author" content="André Duarte Santos de Pina">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips | White Water Rafting Adventures</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <!-- Header with logo and navigation -->
+    <header>
+        <img src="images/wwr-logo.png" alt="Rafting Site Logo" width="120">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero section with centered title and trip intro -->
+        <section class="hero-section">
+            <div class="hero-bg">
+                <div class="hero-overlay">
+                    <h1><span class="soft-bg">Find Your Adventure</span></h1>
+                    <div class="hero-box">
+                        <div class="hero-text">
+                            <p>Choose from a variety of thrilling rafting trips designed for every skill level and group
+                                size. Whether you crave adrenaline-pumping rapids or a scenic float, we have the perfect
+                                journey waiting for you!</p>
+                        </div>
+                        <div class="hero-image">
+                            <img src="images/our-mission.jpg" alt="Rafting Adventure">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Featured Trips Section -->
+        <section class="adventure-section">
+            <h2>Our Top Rafting Trips</h2>
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/rafting1.jpg" alt="Beginner Rapids">
+                    <figcaption>Family Float: Calm Waters for All Ages<br><span class="employee-title">2 hours |
+                            Easy</span></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting2.jpg" alt="Intermediate Rapids">
+                    <figcaption>Rapid Rush: Intermediate Challenge<br><span class="employee-title">Half Day |
+                            Moderate</span></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting3.jpg" alt="Advanced Rapids">
+                    <figcaption>Extreme Adventure: Whitewater Thrills<br><span class="employee-title">Full Day |
+                            Difficult</span></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting4.jpg" alt="Scenic River">
+                    <figcaption>Scenic Explorer: Nature & Wildlife<br><span class="employee-title">3 hours | Easy</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting5.jpg" alt="Group Adventure">
+                    <figcaption>Group Expedition: Team Building Fun<br><span class="employee-title">Custom Duration |
+                            All Levels</span></figcaption>
+                </figure>
+            </div>
+        </section>
+        <!-- Trip Details Section -->
+        <section class="history-section">
+            <h2>Trip Details</h2>
+            <div class="history-content">
+                <div class="history-text">
+                    <p><strong>Family Float:</strong> Perfect for beginners and families, this gentle journey lets you
+                        soak in the scenery and enjoy splashes in calm waters. Minimum age: 5 years.</p>
+                </div>
+                <div class="history-logo-bg">
+                    <img src="images/hero.jpg" alt="Company Logo">
+                </div>
+                <div class="history-text">
+                    <p><strong>Rapid Rush & Extreme Adventure:</strong> For thrill-seekers, tackle Class III-IV rapids
+                        with our expert guides. Safety gear and training provided. Age restrictions apply.</p>
+                </div>
+            </div>
+            <div class="history-content" style="margin-top:2rem;">
+                <div class="history-text">
+                    <p><strong>Scenic Explorer:</strong> Enjoy a relaxing float with stops for photos and wildlife
+                        spotting. Ideal for nature lovers and photographers.</p>
+                </div>
+                <div class="history-logo-bg">
+                    <img src="images/our-mission.jpg" alt="Trip Icon">
+                </div>
+                <div class="history-text">
+                    <p><strong>Group Expedition:</strong> Customizable trips for corporate, school, or large friend
+                        groups. Team-building activities and flexible schedules available.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Call to Action -->
+        <section class="contact-form-section">
+            <h2>Ready to Book Your Trip?</h2>
+            <form class="contact-form" action="contact.html" method="get">
+                <label for="trip-select">Choose a Trip:</label>
+                <select id="trip-select" name="trip">
+                    <option value="family-float">Family Float</option>
+                    <option value="rapid-rush">Rapid Rush</option>
+                    <option value="extreme-adventure">Extreme Adventure</option>
+                    <option value="scenic-explorer">Scenic Explorer</option>
+                    <option value="group-expedition">Group Expedition</option>
+                </select>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit" class="submit-btn">Contact Us to Reserve</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer with social media icons -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 White Water Rafting Adventures </p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+                <a href="https://snapchat.com" target="_blank"><img src="images/snapchat.png" alt="Snapchat"></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
